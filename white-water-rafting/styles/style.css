@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Trade+Winds&display=swap');
+
+:root {
+  --primary-color: #57cee0;
+  --secondary-color: #08543d;
+  --accent1-color: #44167f;
+  --accent2-color: #31d493;
+  --background-color: #073555;
+
+  --heading-font: "Trade Winds", serif;
+  --paragraph-font: "Passion One", Arial, sans-serif;
+  --th-font: "Passion One", Arial, sans-serif;
+  --nav-font: "Passion One", Arial, sans-serif;
+  --div-font: "Passion One", Arial, sans-serif;
+
+  --headline-color-on-white: var(--primary-color);  /* headlines on a white background */ 
+  --headline-color-on-color: var(--accent1-color); /* headlines on a colored background */ 
+  --paragraph-color-on-white: var(--primary-color); /* paragraph text on a white background */ 
+  --paragraph-color-on-color: var(--accent1-color); /* paragraph text on a colored background */
+  --th-color-on-white: var(--accent2-color); 
+  --th-color-on-color: var(--accent1-color); 
+  --paragraph-background-color: var(--primary-color);
+  --nav-link-color: var(--accent2-color);
+  --nav-background-color: var(--secondary-color);
+  --nav-hover-link-color: var(--accent1-color);
+  --nav-hover-background-color: var(--primary-color);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-color);
+    font-family: var(--paragraph-font);
+    font-size: 22px;
+}
+header {
+    background-color: var(--background-color);
+}
+footer {
+    background-color: var(--accent1-color);
+}
+nav a{
+    text-align: center;
+    color: var(--accent2-color);
+    text-decoration: none;
+    padding: 35px;
+}
+nav a:hover {
+    background-color: var(--primary-color);
+    color: var(--accent1-color);
+}
+main {
+    text-align: center;
+}
+main section img {
+    box-sizing: border-box;
+}
+section {
+    text-align: center;
+}
+h2 {
+    margin: 0;
+}
+h4 {
+    color: var(--primary-color);
+}
+footer {
+    color: var(--primary-color);
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+footer a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-size: 1.2em;
+}
+footer a:hover {
+    color: var(--accent2-color);
+    text-decoration: underline;
+}
+footer .social-img {
+    padding-top: 15px
+}
+.book, .join {
+    background-color: var(--secondary-color);
+    color: var(--accent2-color);
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.book:hover, .join:hover{
+    background-color: var(--primary-color);
+    color: var(--accent1-color);
+}
+.msg {
+    background-color: var(--primary-color);
+    line-height: 1.5em;
+    padding: 35px;
+}
+.msg h2 {
+    color: var(--accent1-color);
+}
+.msg p {
+    color: var(--accent1-color);
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+.button-box {
+    text-align: center;
+}
+.home-title {
+    color: var(--primary-color);
+    font-size: 2em;
+    margin-top: 10px;
+}
+#logo-link {
+    padding-top: 5px;
+}
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+#hero-img {
+    width: 100%;
+}
+#hero-msg h1, #hero-msg h4 {
+    text-align: center;
+}
+#logo {
+    width: 10%;
+}
+#background {
+    height: 725px;
+    background-color: var(--primary-color);
+}
+.icon {
+    height: 80px;
+    padding-top: 10px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px;
+}
+.card-img {
+    max-width: 100%;
+    border: 10px solid;
+}
