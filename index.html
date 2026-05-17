@@ -6,18 +6,26 @@
     <title>WDD 130 Homework</title>
     <style>
         body {
+            justify-items: center;
+            display: grid;
+            grid-template-rows: 1fr 1fr;
             background-color: whitesmoke;
             margin: 0;
         }
+        header {
+            display: flex;
+            width:100%;
+        }
         h1 {
             text-align: center;
+            padding: 10px 10px;
             color: red;
             background-color: lightcoral;
-            margin: 10px 30%;
-            width: 40%;
+            width: 100%;
             border-style: solid;
             border-width: 5px;
             border-color: black;
+            box-sizing: border-box;
         }
         #in-class-exercises {
             color: blue;
@@ -34,24 +42,34 @@
             color: orangered;
         }
         .card {
-            display: inline-block;
             background-color: paleturquoise;
-            margin: 10px 10%;
-            height: 250px;
-            width: 30%;
+            width: 80%;
             border-style: solid;
             border-width: 5px;
             border-color: black;
             border-radius: 10px;
+            box-sizing: border-box;
         }
         .card-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+        nav {
             display: flex;
+            justify-content: space-around;
         }
     </style>
 </head>
 <body>
-    <h1>Scott Raber WDD 130 Homework</h1>
-
+    <header>
+        <h1>Scott Raber WDD 130 Homework</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Contact Me</a>
+            <a href="#">Projects</a>
+            <a href="#">Homework</a>
+        </nav>
+    </header>
     <div class="card-container">
         <div class="card">
             <h2 id="in-class-exercises">In-class Exercises</h2>
